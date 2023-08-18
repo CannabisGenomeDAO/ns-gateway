@@ -19,7 +19,7 @@ const TestnetWidgets = {
 
 const MainnetWidgets = {
   image: "mob.near/widget/Image",
-  default: "opencann.near/widget/links",
+  default: "flowscience.near/widget/CGD.Page",
   viewSource: "mob.near/widget/WidgetSource",
   widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
   widgetMetadata: "mob.near/widget/WidgetMetadata",
