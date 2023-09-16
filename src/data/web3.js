@@ -207,9 +207,9 @@ export const onboard = init({
     },
   ],
   appMetadata: {
-    name: "NEAR Social",
+    name: "OpenCann Network",
     icon,
-    description: "NEAR Social",
+    description: "Find, fund, and do cannabis research.",
   },
   theme: "dark",
   containerElements: {
