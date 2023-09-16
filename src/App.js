@@ -10,7 +10,6 @@ import { HashRouter as Router, Link, Route, Switch } from "react-router-dom";
 import EditorPage from "./pages/EditorPage";
 import ViewPage from "./pages/ViewPage";
 import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupNearWallet } from "@near-wallet-selector/near-wallet";
 import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
 import { setupSender } from "@near-wallet-selector/sender";
 import { setupHereWallet } from "@near-wallet-selector/here-wallet";
@@ -58,7 +57,6 @@ function App(props) {
         selector: setupWalletSelector({
           network: NetworkId,
           modules: [
-            setupNearWallet(),
             setupMyNearWallet(),
             setupSender(),
             setupHereWallet(),
