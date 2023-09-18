@@ -31,7 +31,7 @@ import { NetworkId, Widgets } from "./data/widgets";
 import { useEthersProviderContext } from "./data/web3";
 
 export const refreshAllowanceObj = {};
-const documentationHref = "https://docs.opencann.net/";
+const documentationHref = "docs.opencann.net/";
 
 function App(props) {
   const [connected, setConnected] = useState(false);
