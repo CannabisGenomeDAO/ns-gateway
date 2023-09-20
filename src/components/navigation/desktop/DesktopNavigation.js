@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Logotype } from "../Logotype";
 import { NavigationButton } from "../NavigationButton";
 import { ArrowUpRight } from "../../icons/ArrowUpRight";
-import { Logo } from "../../../images/src/images/opencann_combo.svg";
 import { SignInButton } from "../SignInButton";
 import { UserDropdown } from "./UserDropdown";
 import { DevActionsDropdown } from "./DevActionsDropdown";
