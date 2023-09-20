@@ -18,7 +18,11 @@ export function Logotype({ color = "white" }) {
         strokeLinejoin="round"
       />
       <path
-        d="M19.536 5.5L27 13.009L19.536 20.518"
+        d="M 0.00,0.00
+           C 0.00,0.00 866.00,0.00 866.00,0.00
+             866.00,0.00 866.00,288.00 866.00,288.00
+             866.00,288.00 0.00,288.00 0.00,288.00
+             0.00,288.00 0.00,0.00 0.00,0.00 Z"
         stroke="#3D7FFF"
         strokeWidth="3"
         strokeLinecap="round"
