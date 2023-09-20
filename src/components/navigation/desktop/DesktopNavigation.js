@@ -66,7 +66,7 @@ export function DesktopNavigation(props) {
     <StyledNavigation>
       <div className="container">
         <Link to="/" className="logo-link">
-          <Logo />
+          <Logotype />
         </Link>
         <div className="navigation-section">
           <NavigationButton route="/">Home</NavigationButton>
