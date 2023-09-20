@@ -11,13 +11,6 @@ export function Logotype({ color = "white" }) {
       className="logotype"
     >
       <path
-        d="M9.55396 20.518L2 13.009L9.55396 5.5"
-        stroke="#FFFFFF"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
         d="M 600.90,121.01
            C 599.84,115.12 601.49,112.30 606.72,111.26
              609.61,110.68 612.62,110.72 615.79,110.47
@@ -555,6 +548,7 @@ export function Logotype({ color = "white" }) {
              866.00,0.00 866.00,288.00 866.00,288.00
              866.00,288.00 0.00,288.00 0.00,288.00
              0.00,288.00 0.00,0.00 0.00,0.00 Z"
+            fill = {color}
       />
     </svg>
   );
