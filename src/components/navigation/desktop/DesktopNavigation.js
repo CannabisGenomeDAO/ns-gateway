@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Logotype } from "../Logotype";
 import { NavigationButton } from "../NavigationButton";
 import { ArrowUpRight } from "../../icons/ArrowUpRight";
+import { Logo } from "../../../images/src/images/opencann_combo.svg";
 import { SignInButton } from "../SignInButton";
 import { UserDropdown } from "./UserDropdown";
 import { DevActionsDropdown } from "./DevActionsDropdown";
@@ -65,7 +66,7 @@ export function DesktopNavigation(props) {
     <StyledNavigation>
       <div className="container">
         <Link to="/" className="logo-link">
-          <img src="https://github.com/Open-Cann/dashboard/blob/main/src/images/opencann_icon.svg" style={nbStyle.logo} alt="OpenCann"/>
+          <Logo />
         </Link>
         <div className="navigation-section">
           <NavigationButton route="/">Home</NavigationButton>
