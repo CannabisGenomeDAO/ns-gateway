@@ -537,7 +537,7 @@ export function Logotype({ color = "white" }) {
              640.02,186.49 640.02,203.52 640.02,220.71
              644.70,220.71 649.23,220.71 654.00,220.71
              654.00,215.77 654.00,211.13 654.00,205.50 Z"
-        stroke="#3D7FFF"
+        stroke="black"
         strokeWidth="3"
         strokeLinecap="round"
         strokeLinejoin="round"
