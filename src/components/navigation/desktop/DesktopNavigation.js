@@ -65,7 +65,7 @@ export function DesktopNavigation(props) {
     <StyledNavigation>
       <div className="container">
         <Link to="/" className="logo-link">
-          <Logotype />
+          <img src="https://github.com/Open-Cann/dashboard/blob/main/src/images/opencann_icon.svg" style={nbStyle.logo} alt="OpenCann"/>
         </Link>
         <div className="navigation-section">
           <NavigationButton route="/">Home</NavigationButton>
