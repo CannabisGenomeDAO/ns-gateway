@@ -542,14 +542,6 @@ export function Logotype({ color = "white" }) {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        d="M 0.00,0.00
-           C 0.00,0.00 866.00,0.00 866.00,0.00
-             866.00,0.00 866.00,288.00 866.00,288.00
-             866.00,288.00 0.00,288.00 0.00,288.00
-             0.00,288.00 0.00,0.00 0.00,0.00 Z"
-            fill = {color}
-      />
     </svg>
   );
 }
