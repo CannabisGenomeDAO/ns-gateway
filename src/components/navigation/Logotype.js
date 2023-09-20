@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Logotype({ color = "white" }) {
+export function Logotype() {
   return (
     <svg
       width="155"
