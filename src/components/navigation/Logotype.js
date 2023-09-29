@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Logotype({ color = "white" }) {
+export function Logotype() {
   return (
     <img
       src="https://ibb.co/y67XrnJ"
