@@ -5,7 +5,7 @@ export function Logotype() {
     <img
       src="https://i.ibb.co/LtXM82q/Copy-of-Open-Cann.png"
       alt="OpenCann"
-      width="40"
+      width="120"
       height="40"
       className="logotype"
     />
