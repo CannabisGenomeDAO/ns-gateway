@@ -3,10 +3,10 @@ import React from "react";
 export function Logotype() {
   return (
     <img
-      src="https://ibb.co/y67XrnJ"
+      src="https://i.ibb.co/zXDrzhw/Open-Cann-Logo-2023.png"
       alt="OpenCann"
-      width="155"
-      height="26"
+      width="40"
+      height="40"
       className="logotype"
     />
   );
