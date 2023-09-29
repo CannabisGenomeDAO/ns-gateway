@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MobileMenuButton } from "./MobileMenuButton";
-import { OpencannLogo } from "../../icons/OpenCannLogo";
+import { OpenCannLogo } from "../../icons/OpenCannLogo";
 import { NotificationWidget } from "../NotificationWidget";
 import { SignInButton } from "../SignInButton";
 
