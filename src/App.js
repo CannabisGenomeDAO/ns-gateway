@@ -12,6 +12,10 @@ import ViewPage from "./pages/ViewPage";
 import { setupWalletSelector } from "@near-wallet-selector/core";
 import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
 import { setupSender } from "@near-wallet-selector/sender";
+import { setupMathWallet } from "@near-wallet-selector/math-wallet";
+import { setupNearSnap } from "@near-wallet-selector/near-snap";
+import { setupLedger } from "@near-wallet-selector/ledger";
+import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
 import { setupHereWallet } from "@near-wallet-selector/here-wallet";
 import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
 import { setupNeth } from "@near-wallet-selector/neth";
@@ -57,10 +61,13 @@ function App(props) {
         selector: setupWalletSelector({
           network: NetworkId,
           modules: [
-            setupMyNearWallet(),
-            setupSender(),
             setupHereWallet(),
             setupMeteorWallet(),
+            setupMathWallet(),
+            setupWelldoneWallet(),
+            setupNearSnap(),
+            setupLedger(),
+            setupSender(),
             setupNeth({
               gas: "300000000000000",
               bundle: false,
