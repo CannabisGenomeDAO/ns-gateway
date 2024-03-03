@@ -1,3 +1,5 @@
+The [OpenCann.net gateway](https://opencann.net) is a [Next.js](https://nextjs.org/) app that renders [React](https://react.dev/) components from [Near Protocol](https://near.org) using the [Near Social VM](https://github.com/NearSocial/VM).
+
 # Browser
 
 A framework for reusable components to render and modify SocialDB by Near Social.
