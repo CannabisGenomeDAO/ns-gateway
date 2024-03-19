@@ -36,7 +36,7 @@ import { NetworkId, Widgets } from "./data/widgets";
 import { useEthersProviderContext } from "./data/web3";
 
 export const refreshAllowanceObj = {};
-const documentationHref = "https://opencann.notion.site/";
+const documentationHref = "https://opencann.notion.site/91166d7f6b554836914531b7cddca661?v=9ff42f45ed3c4e9890b1fbc3d4b31c78";
 
 function App(props) {
   const [connected, setConnected] = useState(false);
